@@ -13,7 +13,7 @@
         </el-menu-item>
         <el-menu-item index="3">
           <i class="el-icon-setting"></i>
-          <span>导航三</span>
+          <span>导航四</span>
         </el-menu-item>
       </el-menu>
     </el-aside>
