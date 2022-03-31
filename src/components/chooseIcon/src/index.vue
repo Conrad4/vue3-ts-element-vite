@@ -18,10 +18,10 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, watch } from 'vue';
 import * as ElIcons from '@element-plus/icons-vue';
-import { toLine } from '../../../utils';
+import { ref, watch } from 'vue';
 import { useCopy } from '../../../hooks/useCopy';
+import { toLine } from '../../../utils';
 
 const props = defineProps<{
     // 控制弹出框的标题

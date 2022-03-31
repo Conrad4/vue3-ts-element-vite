@@ -5,6 +5,7 @@ import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 import * as Icons from '@element-plus/icons-vue';
 import { toLine } from './utils';
+import mUI from './components'
 // const app = createApp(App).mount('#app')
 const app = createApp(App);
 
@@ -18,6 +19,6 @@ for (let i in Icons) {
 }
 
 // 链式调用
-app.use(router).use(ElementPlus)
+app.use(router).use(ElementPlus).use(mUI)
 app.mount('#app')
 ;
